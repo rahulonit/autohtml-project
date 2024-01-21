@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive SVG Path Clipping</title>
+  <style>
+    :root {
+      --box-width: 130px; /* Set your desired width here */
+    }
+
+    .masked-div {
+      width: var(--box-width);
+      height: calc(var(--box-width) * 0.75); /* 3/4 of the width */
+      background-color: #0596FF; /* Background color for the masked div */
+      clip-path: url(#clipPath); /* Reference the clipPath element */
+    }
+
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1" style="display: none;">
+  <defs>
+    <clipPath id="clipPath">
+      <path fill-rule="evenodd" d="M127 0V66.6665H60.1579V8.54698L127 0ZM127 140V73.3335H60.158V131.453L127 140ZM53.4735 66.6665V9.52378L0 16.8498V66.6665H53.4735ZM53.4735 130.476V73.3335H0V123.15L53.4735 130.476Z"/>
+    </clipPath>
+  </defs>
+</svg>
+
+<div class="masked-div"></div>
+
+</body>
+</html>

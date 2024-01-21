@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>windows 1.0</title>
+    <style>
+        .windows-1-0,
+        .windows-1-0 * {
+            box-sizing: border-box;
+        }
+
+        .windows-1-0 {
+            background: #ffffff;
+            width: 622px;
+            height: 622px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .frame-1 {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            align-items: flex-start;
+            justify-content: flex-start;
+            width: 224.05px;
+            position: absolute;
+            left: calc(50% - 288.53px);
+            top: calc(50% - 292px);
+        }
+
+        .left {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-shrink: 0;
+            width: 90px;
+            position: relative;
+        }
+
+        .top {
+            background: #97c4eb;
+            border-radius: 10px 0px 0px 0px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            flex-shrink: 0;
+            height: 55.53px;
+            min-width: 90px;
+            max-width: 100px;
+            position: relative;
+        }
+
+        .bottom {
+            background: #97c4eb;
+            border-radius: 0px 0px 0px 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            flex-shrink: 0;
+            height: 80.53px;
+            min-width: 90px;
+            max-width: 100px;
+            position: relative;
+        }
+
+        .right {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex: 1;
+            position: relative;
+        }
+
+        .top2 {
+            background: #97c4eb;
+            border-radius: 0px 10px 0px 0px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            align-self: stretch;
+            flex-shrink: 0;
+            height: 80.53px;
+            min-width: 80px;
+            position: relative;
+        }
+
+        .bottom2 {
+            background: #97c4eb;
+            border-radius: 0px 0px 10px 0px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: flex-start;
+            justify-content: flex-start;
+            align-self: stretch;
+            flex-shrink: 0;
+            height: 55.53px;
+            min-width: 90px;
+            position: relative;
+        }
+
+        .windows-1-02 {
+            color: #000000;
+            text-align: left;
+            font-family: "RobotoFlex-SemiBold", sans-serif;
+            font-size: 42px;
+            font-weight: 600;
+            position: absolute;
+            left: 16px;
+            top: 185.06px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="windows-1-0">
+        <div class="frame-1">
+            <div class="left">
+                <div class="top"></div>
+                <div class="bottom"></div>
+            </div>
+            <div class="right">
+                <div class="top2"></div>
+                <div class="bottom2"></div>
+            </div>
+        </div>
+        <div class="windows-1-02">Windows 1.0</div>
+    </div>
+</body>
+
+</html>

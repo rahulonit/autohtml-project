@@ -1,0 +1,369 @@
+.desktop-1,
+.desktop-1 * {
+  box-sizing: border-box;
+}
+.desktop-1 {
+  background: #f0f0f3;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.06);
+  border-width: 1px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1440px;
+  height: 1682px;
+  position: relative;
+  overflow: hidden;
+}
+.windows-logo-evolution {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoFlex-Bold", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  position: relative;
+}
+.outer {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.ui-innerplate {
+  background: #f0f0f3;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 396px;
+  height: 425px;
+  position: relative;
+  box-shadow: 10px 10px 30px 0px rgba(174, 174, 192, 0.4),
+    -10px -10px 30px 0px rgba(255, 255, 255, 1);
+}
+.content {
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.logo-1-0 {
+  flex-shrink: 0;
+  width: 213px;
+  height: 146px;
+  position: relative;
+  overflow: hidden;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-1 {
+  background: #97c4eb;
+  border-radius: 10px 0px 0px 0px;
+  position: absolute;
+  right: 59.88%;
+  left: 0.94%;
+  width: 39.18%;
+  bottom: 60.59%;
+  top: 1.37%;
+  height: 38.04%;
+}
+.rectangle-2 {
+  background: #97c4eb;
+  border-radius: 0px 0px 0px 10px;
+  position: absolute;
+  right: 59.88%;
+  left: 0.94%;
+  width: 39.18%;
+  bottom: 1.33%;
+  top: 43.52%;
+  height: 55.15%;
+}
+.rectangle-3 {
+  background: #97c4eb;
+  border-radius: 0px 10px 0px 0px;
+  position: absolute;
+  right: 0.91%;
+  left: 42.93%;
+  width: 56.15%;
+  bottom: 43.48%;
+  top: 1.37%;
+  height: 55.15%;
+}
+.rectangle-4 {
+  background: #97c4eb;
+  border-radius: 0px 0px 10px 0px;
+  position: absolute;
+  right: 0.91%;
+  left: 42.93%;
+  width: 56.15%;
+  bottom: 1.33%;
+  top: 60.63%;
+  height: 38.04%;
+}
+.windows-1-0 {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoFlex-SemiBold", sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  position: relative;
+}
+.year-1985 {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoFlex-Medium", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  position: relative;
+}
+.logo-3-1 {
+  flex-shrink: 0;
+  width: 146.35px;
+  height: 119.5px;
+  position: relative;
+  overflow: visible;
+}
+.windows-3-1 {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoFlex-SemiBold", sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  position: relative;
+}
+.year-1992 {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoFlex-Medium", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  position: relative;
+}
+.logo-95 {
+  flex-shrink: 0;
+  width: 170px;
+  height: 147.39px;
+  position: relative;
+  overflow: visible;
+}
+.windows-95 {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoFlex-SemiBold", sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  position: relative;
+}
+.year-1995 {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoFlex-Medium", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  position: relative;
+}
+.logo-xp {
+  flex-shrink: 0;
+  width: 147.42px;
+  height: 130.08px;
+  position: relative;
+  overflow: visible;
+}
+.windows-xp {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoFlex-SemiBold", sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  position: relative;
+}
+.year-2001 {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoFlex-Medium", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  position: relative;
+}
+.vista-logo {
+  flex-shrink: 0;
+  width: 170px;
+  height: 170.94px;
+  position: relative;
+  overflow: visible;
+}
+.windows-vista {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoFlex-SemiBold", sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  position: relative;
+}
+.year-2007 {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoFlex-Medium", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  position: relative;
+}
+.logo-7 {
+  flex-shrink: 0;
+  width: 150px;
+  height: 131.47px;
+  position: relative;
+  overflow: visible;
+}
+.windows-7 {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoFlex-SemiBold", sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  position: relative;
+}
+.year-2009 {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoFlex-Medium", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  position: relative;
+}
+.logo-8 {
+  flex-shrink: 0;
+  width: 130px;
+  height: 142px;
+  position: relative;
+  overflow: visible;
+}
+.windows-8 {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoFlex-SemiBold", sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  position: relative;
+}
+.year-2012 {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoFlex-Medium", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  position: relative;
+}
+.logo-10 {
+  flex-shrink: 0;
+  width: 130px;
+  height: 142px;
+  position: relative;
+  overflow: visible;
+}
+.windows-10 {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoFlex-SemiBold", sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  position: relative;
+}
+.year-2015 {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoFlex-Medium", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  position: relative;
+}
+.logo-11 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 132px;
+  height: 132px;
+  position: relative;
+}
+.top {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.rectangle-12 {
+  background: #0279d5;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.rectangle-22 {
+  background: #0279d5;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.rectangle-32 {
+  background: #0279d5;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.rectangle-42 {
+  background: #0279d5;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.windows-11 {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoFlex-SemiBold", sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  position: relative;
+}
+.year-2021 {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoFlex-Medium", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  position: relative;
+}
